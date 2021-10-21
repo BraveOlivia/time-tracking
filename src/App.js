@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Profile from "./Profile";
+import TimeCard from "./TimeCard";
+import records from "./data.json";
+import "./App.css";
 
 function App() {
+  const [frequency, setFrequency] = useState("daily");
+
+  function frequencyHandler(e) {
+    setFrequency(e);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="row">
+      <div className="col left">
+        <Profile onClick={frequencyHandler} />
+      </div>
+      <div className="col right">
+        {records.map((record, index) => {
+          return (
+            <TimeCard
+              key={index}
+              frequency={frequency}
+              title={record.title}
+              current={record.timeframes[frequency].current}
+              previous={record.timeframes[frequency].previous}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }

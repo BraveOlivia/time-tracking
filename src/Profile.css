@@ -1,0 +1,48 @@
+.card-container {
+  /* width: 20%; */
+  border-radius: 5%;
+  color: #fff;
+  text-align: left;
+  background-color: hsl(235, 46%, 20%);
+  margin: 5%;
+}
+
+.top-card {
+  padding: 6%;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 5%;
+}
+
+.bottom-card {
+  padding: 5%;
+}
+
+.avatar {
+  margin-top: 5%;
+  width: 30%;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.report {
+  color: hsl(235, 45%, 61%);
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.user-name {
+  margin: 0 auto 20%;
+}
+
+button {
+  display: block;
+  border: none;
+  color: hsl(235, 45%, 61%);
+  background-color: transparent;
+  font-size: 1rem;
+  margin: 6% 0;
+}
+
+button:hover {
+  color: white;
+}

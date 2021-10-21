@@ -1,0 +1,50 @@
+.time-card {
+  width: 25%;
+  margin: 2% 3%;
+  color: #fff;
+  float: left;
+  border-radius: 5%;
+  background-color: hsl(43, 84%, 65%);
+}
+
+.img-container {
+  max-height: 50px;
+  overflow: hidden;
+}
+
+.bottom-time-card {
+  border-radius: 5%;
+  padding: 3px;
+  z-index: 999;
+  background-color: hsl(235, 46%, 20%);
+}
+
+.background-icon {
+  width: 60%;
+  height: 30px;
+  margin-top: -3%;
+  padding-right: 50%;
+  position: relative;
+  left: 50%;
+  opacity: 0.8;
+}
+
+.time-card-title {
+  margin-left: 5%;
+}
+
+.time-card-hrs {
+  margin-left: 5%;
+  margin-bottom: 0.3rem;
+  font-weight: 300;
+}
+
+.time-card-last {
+  margin: 0 5% 10%;
+  font-size: 0.7rem;
+  color: hsl(235, 45%, 61%);
+}
+
+.bottom-card {
+  z-index: 999;
+}
