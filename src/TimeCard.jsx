@@ -17,9 +17,11 @@ const timeCard = (props) => {
         />
       </div>
       <div className="bottom-time-card">
-        <h5 className="time-card-title">{props.title} ...</h5>
-        <h1 className="time-card-hrs">{props.current}hrs</h1>
-        <p className="time-card-last">Last Week - {props.previous} hrs</p>
+        <h5 className="time-card-title">
+          {props.title} <span className="alignright">...</span>
+        </h5>
+        <h1 className="time-card-current">{props.current}hrs</h1>
+        <p className="time-card-previous">Last Week - {props.previous} hrs</p>
       </div>
     </div>
   );
