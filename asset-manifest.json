@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/time-tracking/static/css/main.cf589c47.chunk.css",
+    "main.css": "/time-tracking/static/css/main.d6742720.chunk.css",
     "main.js": "/time-tracking/static/js/main.216e05d5.chunk.js",
     "main.js.map": "/time-tracking/static/js/main.216e05d5.chunk.js.map",
     "runtime-main.js": "/time-tracking/static/js/runtime-main.433b41a3.js",
@@ -8,7 +8,7 @@
     "static/js/2.0dc7bf3a.chunk.js": "/time-tracking/static/js/2.0dc7bf3a.chunk.js",
     "static/js/2.0dc7bf3a.chunk.js.map": "/time-tracking/static/js/2.0dc7bf3a.chunk.js.map",
     "index.html": "/time-tracking/index.html",
-    "static/css/main.cf589c47.chunk.css.map": "/time-tracking/static/css/main.cf589c47.chunk.css.map",
+    "static/css/main.d6742720.chunk.css.map": "/time-tracking/static/css/main.d6742720.chunk.css.map",
     "static/js/2.0dc7bf3a.chunk.js.LICENSE.txt": "/time-tracking/static/js/2.0dc7bf3a.chunk.js.LICENSE.txt",
     "static/media/icon-exercise.3e7b0282.svg": "/time-tracking/static/media/icon-exercise.3e7b0282.svg",
     "static/media/icon-play.e8d4e569.svg": "/time-tracking/static/media/icon-play.e8d4e569.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.433b41a3.js",
     "static/js/2.0dc7bf3a.chunk.js",
-    "static/css/main.cf589c47.chunk.css",
+    "static/css/main.d6742720.chunk.css",
     "static/js/main.216e05d5.chunk.js"
   ]
 }
