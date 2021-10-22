@@ -16,8 +16,6 @@
   padding: 10% 6%;
 }
 
-
-
 .avatar {
   margin-top: 5%;
   width: 30%;
@@ -41,7 +39,7 @@ button {
   color: hsl(235, 45%, 61%);
   background-color: transparent;
   font-size: 1rem;
-  margin: 6% 0;
+  margin: 3% 0;
   cursor: pointer;
 }
 
@@ -49,7 +47,7 @@ button:hover {
   color: white;
 }
 
-@media only screen and (max-width: 605px) {
+@media only screen and (max-width: 900px) {
   .card-container {
     width: 60%;
     margin: auto;
@@ -70,12 +68,14 @@ button:hover {
 
   .bottom-card {
     padding: 5%;
-    display: flex; /*Spread evenly*/
+    display: flex; /*spread evenly*/
+    width: 90%;
+    text-align: center;
   }
 
   .avatar {
     width: 80%;
-    margin: 25% auto;
+    margin: 10% auto;
   }
 
   .report {

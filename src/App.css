@@ -1,25 +1,23 @@
 .row {
   width: 80%;
   margin: 10% auto;
-  /* height: 400px; */
-  /* overflow: hidden; */
-  /* background-color: red; */
+  display: table;
 }
 
 .col {
+  display: table-cell;
   float: left;
 }
 
 .left {
   width: 25%;
-  /* padding-bottom: 20px; */
 }
 
 .right {
   width: 75%;
 }
 
-@media only screen and (max-width: 605px) {
+@media only screen and (max-width: 900px) {
   .left {
     width: 100%;
   }
